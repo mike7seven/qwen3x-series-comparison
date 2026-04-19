@@ -70,6 +70,18 @@ Comparative benchmark results across the Qwen3.x model family, covering Coding A
 
 ---
 
+## Further Reading: Reasoning, Interleaved Thinking & the Model Router
+
+Deep-dive notes synthesized from research and hands-on testing around Qwen3.6's `preserve_thinking` feature, dynamic reasoning, and how Qwen's approach compares to Gemma 4:
+
+1. **[Interleaved Thinking — Concepts](docs/01-interleaved-thinking.md)** — What "interleaved thinking" actually means (multimodal vs. reasoning persistence) and why the terminology is confusing.
+2. **[Preserve Thinking in Qwen 3.6](docs/02-preserve-thinking.md)** — The new `preserve_thinking` flag, KV cache prefix matching, the "two 20-digit numbers" validation test, and a full test matrix from LM Studio.
+3. **[Toggling Thinking & Sampling Parameters](docs/03-thinking-toggle-and-parameters.md)** — The difference between `enable_thinking` and `preserve_thinking`, plus Alibaba's recommended sampling parameters for each mode (thinking vs. instruct, general vs. coding).
+4. **[Dynamic Thinking & The Model Router](docs/04-dynamic-thinking-router.md)** — Autonomous gating, adaptive reasoning latency ("dwelling"), and how tools anchor reasoning budget across model sizes.
+5. **[Qwen 3.6 vs. Gemma 4: Two Philosophies](docs/05-qwen-vs-gemma4.md)** — Stateful Persistence (Alibaba) vs. The Clean Slate (Google), failure modes of each, and the "explicit handoff" middle ground.
+
+---
+
 ## Sources
 
 ### Qwen3.5-122B-A10B
