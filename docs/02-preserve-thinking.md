@@ -2,6 +2,8 @@
 
 *Synthesized from a research conversation on 2026-04-19.*
 
+*Credit: this investigation was prompted by two posts from **[u/onil_gova](https://www.reddit.com/user/onil_gova/)** on r/LocalLLaMA — [PSA: Qwen3.6 ships with preserve_thinking](https://www.reddit.com/r/LocalLLaMA/comments/1sne4gh/psa_qwen36_ships_with_preserve_thinking_make_sure/) and [Qwen3.6 performance jump is real](https://www.reddit.com/r/LocalLLaMA/comments/1soq1es/qwen36_performance_jump_is_real_just_make_sure/).*
+
 ## What It Is
 
 Qwen3.6 introduces a `preserve_thinking` flag that controls whether `<think>` blocks from previous assistant turns are retained in the prompt history sent to the model on subsequent turns.

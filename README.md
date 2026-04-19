@@ -82,6 +82,15 @@ Deep-dive notes synthesized from research and hands-on testing around Qwen3.6's 
 
 ---
 
+## Acknowledgments
+
+Thanks to **[u/onil_gova](https://www.reddit.com/user/onil_gova/)** on r/LocalLLaMA, whose posts kicked off the `preserve_thinking` investigation that led to the docs in this repo:
+
+- [PSA: Qwen3.6 ships with preserve_thinking — make sure it's on](https://www.reddit.com/r/LocalLLaMA/comments/1sne4gh/psa_qwen36_ships_with_preserve_thinking_make_sure/)
+- [Qwen3.6 performance jump is real — just make sure…](https://www.reddit.com/r/LocalLLaMA/comments/1soq1es/qwen36_performance_jump_is_real_just_make_sure/)
+
+---
+
 ## Sources
 
 ### Qwen3.5-122B-A10B
