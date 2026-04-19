@@ -64,7 +64,7 @@ Comparative benchmark results across the Qwen3.x model family, covering Coding A
 
 \*\* Qwen3.5-27B's win count of 12 excludes the flagged SkillsBench Avg score. Including it brings the total to 13.
 
-\*\*\* Qwen3.5-122B-A10B's dominant win count of 29 reflects its broader benchmark coverage, particularly sweeping all Multilingualism, Search Agent, Instruction Following, and Long Context categories where it competes against Qwen3.5-35B-A3B. Qwen3.5-35B-A3B's single win (TAU2-Bench) reflects limited overlap with the other models' benchmark suites rather than overall underperformance.
+\*\*\* Qwen3.5-122B-A10B's total win count is 29, but only **7/29** of those wins occur on benchmarks also run by Qwen3.5-27B or Qwen3.6-35B-A3B (MMLU-Pro, MMLU-Redux, SuperGPQA, C-Eval, GPQA, HLE, HMMT Nov 25). The remaining 22 wins come from benchmarks run exclusively against Qwen3.5-35B-A3B — Multilingualism, Search Agent, Instruction Following, and Long Context categories — where there is no cross-model competition. Qwen3.5-35B-A3B's single win (TAU2-Bench) similarly reflects limited benchmark overlap rather than overall underperformance.
 
 > **Note:** — indicates the benchmark was not reported for that model. Wins are only bolded where two or more models share a benchmark.
 
