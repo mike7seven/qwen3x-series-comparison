@@ -1,0 +1,9 @@
+This folder is a local-only scratchpad. Everything inside is gitignored
+(except this marker file itself) so you can drop raw conversations,
+drafts, notes, or working files here without worrying about them being
+committed.
+
+Examples of what belongs here:
+- Raw Gemini / ChatGPT / Claude conversation exports
+- In-progress benchmark dumps
+- Personal notes that inform the docs but shouldn't be public
