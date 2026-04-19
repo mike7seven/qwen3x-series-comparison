@@ -67,3 +67,39 @@ Comparative benchmark results across the Qwen3.x model family, covering Coding A
 \*\*\* Qwen3.5-122B-A10B's dominant win count of 29 reflects its broader benchmark coverage, particularly sweeping all Multilingualism, Search Agent, Instruction Following, and Long Context categories where it competes against Qwen3.5-35B-A3B. Qwen3.5-35B-A3B's single win (TAU2-Bench) reflects limited overlap with the other models' benchmark suites rather than overall underperformance.
 
 > **Note:** — indicates the benchmark was not reported for that model. Wins are only bolded where two or more models share a benchmark.
+
+---
+
+## Sources
+
+### Qwen3.5-122B-A10B
+- **Hugging Face:** https://huggingface.co/Qwen/Qwen3.5-122B-A10B
+- **Blog:** https://qwen.ai/blog?id=qwen3.5
+- **License:** Apache 2.0
+- **Released:** February 2026
+
+```bibtex
+@misc{qwen3.5,
+    title  = {{Qwen3.5}: Towards Native Multimodal Agents},
+    author = {{Qwen Team}},
+    month  = {February},
+    year   = {2026},
+    url    = {https://qwen.ai/blog?id=qwen3.5}
+}
+```
+
+### Qwen3.6-35B-A3B
+- **Hugging Face:** https://huggingface.co/Qwen/Qwen3.6-35B-A3B
+- **Blog:** https://qwen.ai/blog?id=qwen3.6-35b-a3b
+- **License:** Apache 2.0
+- **Released:** April 2026
+
+```bibtex
+@misc{qwen36_35b_a3b,
+    title  = {{Qwen3.6-35B-A3B}: Agentic Coding Power, Now Open to All},
+    author = {{Qwen Team}},
+    month  = {April},
+    year   = {2026},
+    url    = {https://qwen.ai/blog?id=qwen3.6-35b-a3b}
+}
+```
