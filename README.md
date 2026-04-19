@@ -56,7 +56,7 @@ Comparative benchmark results across the Qwen3.x model family, covering Coding A
 | | PolyMATH | — | — | 64.4 | **68.9** |
 | | WMT24++ | — | — | 76.3 | **78.3** |
 | | MAXIFE | — | — | 86.6 | **87.9** |
-| **Total Wins** | | **12\*\*** | **9** | **1** | **29\*\*\*** |
+| **Total Wins** | | **12\*\*** | **9** | **1** | **7/29\*\*\*** |
 
 ---
 
