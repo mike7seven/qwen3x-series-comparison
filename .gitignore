@@ -16,5 +16,4 @@ Thumbs.db
 
 # Scratchpad — local-only working files (raw conversations, drafts, notes)
 # Example: scratchpad/Interleaved Thinking-Reasoning.md
-scratchpad/*
-!scratchpad/.scratchpad
+scratchpad/
